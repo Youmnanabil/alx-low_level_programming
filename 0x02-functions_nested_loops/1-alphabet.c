@@ -3,9 +3,9 @@
 /*print_alphabets using _putchar function*/
 void print_alphabet(void)
 {
-	int x;
+	int ch;
 
-	for (x = "a"; x <= "z"; x++)
-		_putchar(x);
-	_putchar("\n");
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
 }
